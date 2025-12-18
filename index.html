@@ -10,6 +10,70 @@
 <meta name="robots" content="index, follow">
 
 <style>
+  <!-- ===== FLOATING CLICK-TO-DIAL CTA (SAFE & FACTUAL) ===== -->
+
+<style>
+  .call-float {
+    position: fixed;
+    bottom: 18px;
+    right: 18px;
+    z-index: 9999;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+    padding: 12px 14px;
+    max-width: 300px;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  }
+
+  .call-float a {
+    text-decoration: none;
+    color: #111827;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .call-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: #2563eb;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    flex-shrink: 0;
+  }
+
+  .call-text {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .call-text strong {
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .call-text span {
+    color: #4b5563;
+    font-size: 13px;
+  }
+</style>
+
+<div class="call-float" aria-label="Phone-based information">
+  <a href="tel:+18554859479">
+    <div class="call-icon">📞</div>
+    <div class="call-text">
+      <strong>(8𝟱𝟱) 48𝟱 – 94𝟳𝟵</strong>
+      <span>Policy & billing information by phone</span>
+    </div>
+  </a>
+</div>
 body{
   font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
   margin:0;
