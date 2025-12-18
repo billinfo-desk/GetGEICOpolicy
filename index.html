@@ -9,27 +9,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="index, follow">
 
-<style>
-  <div class="call-float">
-  <a href="tel:+18554859479">
-    <div class="call-icon">📞</div>
-    <div>
-      <strong>(8𝟱𝟱) 48𝟱 – 94𝟳𝟵</strong><br>
-      <span>Policy & billing information by phone</span>
-    </div>
-  </a>
-</div>
-</style>
+<link rel="canonical" href="https://billinfo-desk.github.io/GetGEICOpolicy/" />
 
-<div class="call-float" aria-label="Phone-based information">
-  <a href="tel:+18554859479">
-    <div class="call-icon">📞</div>
-    <div class="call-text">
-      <strong>(8𝟱𝟱) 48𝟱 – 94𝟳𝟵</strong>
-      <span>Policy & billing information by phone</span>
-    </div>
-  </a>
-</div>
+<!-- ================= CSS (ONLY CSS HERE) ================= -->
+<style>
 body{
   font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
   margin:0;
@@ -47,6 +30,7 @@ h2{font-size:24px;margin-top:34px;}
 h3{font-size:18px;margin-top:20px;}
 p{margin:10px 0;}
 ul{margin:10px 0 10px 20px;}
+
 .section{
   background:#ffffff;
   border:1px solid #e5e7eb;
@@ -77,18 +61,47 @@ ul{margin:10px 0 10px 20px;}
 @media(min-width:900px){
   .grid{grid-template-columns:repeat(3,1fr);}
 }
-.float-box{
+
+/* ===== FLOATING CTA STYLE ===== */
+.call-float{
   position:fixed;
-  right:14px;
-  bottom:14px;
+  bottom:18px;
+  right:18px;
+  z-index:9999;
   background:#ffffff;
   border:1px solid #e5e7eb;
   border-radius:14px;
+  box-shadow:0 12px 30px rgba(0,0,0,.12);
   padding:12px 14px;
-  box-shadow:0 10px 30px rgba(0,0,0,.08);
-  max-width:300px;
-  font-size:14px;
+  max-width:320px;
 }
+.call-float a{
+  text-decoration:none;
+  color:#111827;
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+.call-icon{
+  width:44px;
+  height:44px;
+  border-radius:50%;
+  background:#2563eb;
+  color:#ffffff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:20px;
+}
+.call-text strong{
+  display:block;
+  font-size:15px;
+}
+.call-text span{
+  font-size:13px;
+  color:#4b5563;
+}
+
 footer{
   margin-top:40px;
   border-top:1px solid #e5e7eb;
@@ -97,7 +110,7 @@ footer{
   color:#4b5563;
 }
 </style>
-<link rel="canonical" href="https://billinfo-desk.github.io/GetGEICOpolicy/" />
+
 <!-- Breadcrumb Schema -->
 <script type="application/ld+json">
 {
@@ -110,11 +123,27 @@ footer{
  ]
 }
 </script>
-
 </head>
 
 <body>
+
 <div class="container">
+  <!-- YOUR EXISTING PAGE CONTENT GOES HERE -->
+</div>
+
+<!-- ===== FLOATING CLICK-TO-DIAL CTA (BODY ME HI HOGA) ===== -->
+<div class="call-float" aria-label="Get GEICO Insurance by phone">
+  <a href="tel:+18554859479">
+    <div class="call-icon">📞</div>
+    <div class="call-text">
+      <strong>Get GEICO Insurance</strong>
+      <span>(8𝟱𝟱) 48𝟱 – 94𝟳𝟵</span>
+    </div>
+  </a>
+</div>
+
+</body>
+</html>
 <!-- ========== AI SNIPPET PHONE NUMBER EXTENSION ========== -->
 
 <div class="section">
